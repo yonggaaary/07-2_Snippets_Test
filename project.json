@@ -1,0 +1,62 @@
+{
+  "name": "07-2_스니펫_테스트",
+  "projectId": "ca891156-9ed7-4d97-8f64-06eb36c9cb20",
+  "description": "07-2_스니펫_테스트",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.20.1]",
+    "UiPath.Mail.Activities": "[1.18.2]",
+    "UiPath.System.Activities": "[23.4.2]",
+    "UiPath.Testing.Activities": "[23.4.0]",
+    "UiPath.UIAutomation.Activities": "[23.4.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.4.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "29d4d091-5b66-4ff6-82b5-eb32b82aeddb",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
